@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageList matches snapshot 1`] = `
+<li
+  className="Message__operator"
+  style={
+    Object {
+      "clear": "both",
+    }
+  }
+>
+  <div>
+    <ul>
+      <li
+        key="0operator.steve"
+      >
+        test message
+      </li>
+    </ul>
+  </div>
+</li>
+`;

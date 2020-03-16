@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClientList matches snapshot 1`] = `
+<ClientList
+  chats={
+    Object {
+      "id-0": Object {
+        "client": Object {
+          "first_name": "Robert",
+          "last_name": "waffle",
+        },
+      },
+      "id-1": Object {
+        "client": Object {
+          "first_name": "Lisa",
+          "last_name": "pancake",
+        },
+      },
+    }
+  }
+  config={Object {}}
+  loadClientList={[Function]}
+  operatorFilter="all"
+  query=""
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [MockFunction] {
+        "calls": Array [
+          Array [],
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Object {
+              "chat": Object {
+                "chats": Object {
+                  "id-0": Object {
+                    "client": Object {
+                      "first_name": "Robert",
+                      "last_name": "waffle",
+                    },
+                  },
+                  "id-1": Object {
+                    "client": Object {
+                      "first_name": "Lisa",
+                      "last_name": "pancake",
+                    },
+                  },
+                },
+                "config": Object {},
+                "operatorFilter": "all",
+              },
+            },
+          },
+          Object {
+            "type": "return",
+            "value": Object {
+              "chat": Object {
+                "chats": Object {
+                  "id-0": Object {
+                    "client": Object {
+                      "first_name": "Robert",
+                      "last_name": "waffle",
+                    },
+                  },
+                  "id-1": Object {
+                    "client": Object {
+                      "first_name": "Lisa",
+                      "last_name": "pancake",
+                    },
+                  },
+                },
+                "config": Object {},
+                "operatorFilter": "all",
+              },
+            },
+          },
+        ],
+      },
+      "subscribe": [MockFunction] {
+        "calls": Array [
+          Array [
+            [Function],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    }
+  }
+/>
+`;

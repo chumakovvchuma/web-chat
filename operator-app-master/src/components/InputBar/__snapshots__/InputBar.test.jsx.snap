@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputBar matches snapshot 1`] = `
+<InputBar
+  activeId="TEST"
+  dispatch={[MockFunction]}
+  operator="TEST"
+  socket={Object {}}
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [MockFunction] {
+        "calls": Array [
+          Array [],
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Object {
+              "chat": Object {
+                "activeId": "TEST",
+              },
+              "config": Object {
+                "operator": "TEST",
+              },
+            },
+          },
+          Object {
+            "type": "return",
+            "value": Object {
+              "chat": Object {
+                "activeId": "TEST",
+              },
+              "config": Object {
+                "operator": "TEST",
+              },
+            },
+          },
+        ],
+      },
+      "subscribe": [MockFunction] {
+        "calls": Array [
+          Array [
+            [Function],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    }
+  }
+/>
+`;

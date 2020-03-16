@@ -1,0 +1,18 @@
+.InputBar {
+  display: flex;
+  background: #fff;
+  min-height: 50px;
+}
+
+.InputBar input {
+  flex-grow: 1;
+  outline: 0;
+  display: flex;
+  padding: 1rem;
+  resize: none;
+  border: none;
+}
+
+.InputBar .Button--send {
+  margin: 4px;
+}

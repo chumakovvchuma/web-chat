@@ -1,0 +1,104 @@
+.OperatorPanel {
+  background: #fdfdfd;
+  box-shadow: 1px 0 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 200px;
+  z-index: 4;
+}
+
+
+.OperatorPanel__header {
+  -webkit-app-region: drag;
+  position: relative;
+  align-self: center;
+  align-items: center;
+  background: rgba(52, 73, 94, 1.0);
+  color: #afafaf;
+  display: flex;
+  flex-direction: row;
+  font-family: Roboto, sans-serif;
+  font-size: 12px;
+  height: 50px;
+  width: 100%;
+  justify-content: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.OperatorPanel__header span {
+  font-family: Roboto, sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.OperatorPanel__header .SVG__logo {
+  flex-grow: 1;
+  height: 20px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  fill: rgba(255, 255, 255, 1.0);
+}
+
+.OperatorPanel__appname {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.OperatorPanel__footer {
+  color: #777;
+  font-size: 10px;
+  text-align: center;
+}
+
+
+.OperatorPanel__settings {
+  align-items: center;
+  background:  #F7F8FA;
+  border: none;
+  border-bottom: 1px solid  #E8ECEE;
+  border-top: 1px solid  #E8ECEE;
+  color: #8f8f8f;
+  cursor: pointer;
+  display: flex;
+  font-size: 12px;
+  justify-content: center;
+  margin-bottom: 1rem;
+  padding: 1rem 0 0.7rem 0;
+  width: 100%;
+  outline: none;
+}
+
+.OperatorPanel__settings .ss-icon {
+  font-size: 18px;
+  flex-grow: 1;
+}
+
+.OperatorPanel__settings span:not(.ss-icon) {
+  height: 18px;
+  flex-grow: 2;
+  text-align: left;
+  padding-left: 20px;
+}
+
+/*
+.OperatorPanel__settings:focus {
+  outline: none;
+}
+*/
+
+.OperatorPanel__settings:hover {
+  background:  #EFF0F2;
+}
+
+.OperatorPanel__settings:active {
+  background:  #E8E9EB;
+}
+
+
+.OperatorPanel__madewith {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+}

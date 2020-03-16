@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ClientsPanel matches snapshot 1`] = `
+<div
+  className="ClientsPanel"
+>
+  <SearchBar
+    onQueryChange={[Function]}
+    query=""
+  />
+  <Connect(ClientList)
+    query=""
+  />
+</div>
+`;

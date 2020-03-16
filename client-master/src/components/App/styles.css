@@ -1,0 +1,44 @@
+/* Application Component */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+#mnml-chat {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/* Messenger Theme */
+
+.mnml--messenger {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  right: 100px;
+  width: 280px;
+  height: 360px;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.24) 0px 2px 4px 0px;
+}
+
+.mnml--messenger.closed {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  bottom: 0;
+  right: 100px;
+  width: 280px;
+  height: 32px;
+}
+
+/* Float Theme */
+
+.mnml--float {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.mnml--float.closed {
+
+}

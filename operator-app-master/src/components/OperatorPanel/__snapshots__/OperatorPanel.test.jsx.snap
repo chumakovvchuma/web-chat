@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OperatorPanel matches snapshot 1`] = `
+<OperatorPanel
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [MockFunction] {
+        "calls": Array [
+          Array [],
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Object {},
+          },
+          Object {
+            "type": "return",
+            "value": Object {},
+          },
+        ],
+      },
+      "subscribe": [MockFunction],
+    }
+  }
+  toggleSettings={[Function]}
+/>
+`;

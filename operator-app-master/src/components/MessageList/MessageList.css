@@ -1,0 +1,46 @@
+.MessageList {
+  background: #e3eaf0;
+  flex-grow: 1;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.MessageList__empty {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  align-self: center;
+  text-align: center;
+  align-items: center;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.lil-ghost, .lil-mailbox {
+  font-size: 40px;
+}
+
+.MessageList__box {
+  flex-grow: 1;
+  overflow-y: scroll;
+  padding-left: 0;
+  padding-right: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 12px;
+}
+
+.MessageList__box--done {
+  opacity: 0.5;
+}
+
+.MessageList__status {
+  position: absolute;
+  bottom: 60px;
+  min-height: 14px; /* size of status message text */
+  padding: 8px;
+  margin-right: 16px;
+}

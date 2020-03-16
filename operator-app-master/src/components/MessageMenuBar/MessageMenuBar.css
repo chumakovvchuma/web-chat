@@ -1,0 +1,13 @@
+.MessageMenuBar {
+  align-items: stretch;
+  box-sizing: border-box;
+  height: 50px; 
+  justify-content: space-around;
+  padding: 8px;
+}
+
+.MessageMenuBar .Button {
+  height: 100%;
+  line-height: inherit;
+  font-weight: 400;
+}

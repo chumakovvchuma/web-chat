@@ -1,0 +1,14 @@
+.MessagePanel {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 3;
+  width: 50%;                   /* not sure if this is the best way*/
+}
+
+.MessagePanel__container {
+  border: 0;
+  box-shadow: inset 10px 0 50px -15px #efefef;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}

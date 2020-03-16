@@ -1,0 +1,25 @@
+:focus {
+  outline-offset: 0;
+}
+
+input, button {
+  font-family: Roboto, sans-serif;
+}
+
+.App {
+  display: flex;
+  font-family: Roboto, sans-serif;
+}
+
+.App__mainview {
+  display: flex;
+  flex-grow: 2;
+  position: relative;
+}
+
+.App__settingsview {
+  background: #e3eaf0;
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+}

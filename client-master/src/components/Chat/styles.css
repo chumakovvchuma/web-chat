@@ -1,0 +1,55 @@
+/* Chat Component */
+
+
+/* Messenger Theme */
+
+.Chat--messenger {
+  display: flex;
+  flex-direction: column;
+  background: rgba(248,248,248,1);
+  flex-grow: 1;
+  box-shadow: #00000013 1px 1px 8px 0;
+  border: 0; 
+  border-radius: 3px 3px 0 0;
+}
+
+.Chat__body--messenger {
+  list-style: none;
+  display: flex;
+  flex-grow: 1;
+  padding: 6px 4px;
+  flex-direction: column;
+  overflow-y: scroll;
+  margin: 0;
+  border-right: 1px solid rgba(0,0,0,0.1);
+  height: 100%;
+}
+
+
+/* Float Theme */
+
+.Chat--float {
+  position: relative;
+  right: 10px;
+  bottom: 30px;
+  background-color: transparent;
+}
+
+.Chat__body--float {
+  width: 310px;
+  bottom: 110px;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+

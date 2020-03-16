@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`OperatorSettingsMenu matches snapshot 1`] = `
+<OperatorSettingsMenu
+  avatar={null}
+  dispatch={[MockFunction]}
+  operatorName=""
+  store={
+    Object {
+      "dispatch": [MockFunction],
+      "getState": [MockFunction] {
+        "calls": Array [
+          Array [],
+          Array [],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": Object {
+              "config": Object {},
+            },
+          },
+          Object {
+            "type": "return",
+            "value": Object {
+              "config": Object {},
+            },
+          },
+        ],
+      },
+      "subscribe": [MockFunction] {
+        "calls": Array [
+          Array [
+            [Function],
+          ],
+        ],
+        "results": Array [
+          Object {
+            "type": "return",
+            "value": undefined,
+          },
+        ],
+      },
+    }
+  }
+/>
+`;

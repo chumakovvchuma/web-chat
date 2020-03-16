@@ -1,0 +1,14 @@
+#title {
+  background: #666666;
+}
+
+#title span {
+  display: block;
+  padding: 9px 0;
+  text-transform: uppercase;
+  text-align: center;
+  height: 50px;
+  font-weight: 800;
+  font-size: 22px;
+  color: white;
+}
